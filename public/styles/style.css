@@ -1,0 +1,151 @@
+/* CSS styles for layout */
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Changed background color to white */
+    color: #333; /* Set text color */
+}
+header, nav, section, footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #FFF; /* Changed background color to white */
+}
+header hr {
+    border: none;
+    border-top: 1px solid #000; /* Set border color to black */
+    margin: 10px 0;
+}
+.back-button {
+    position: absolute;
+    top: 120px; /* Adjusted position */
+    left: 20px; /* Adjusted position */
+    cursor: pointer;
+    width: 30px; /* Adjusted width */
+    height: 30px; /* Adjusted height */
+}
+.icons {
+    position: absolute;
+    top: 120px; /* Adjusted position */
+    right: 20px;
+}
+.icon {
+    cursor: pointer;
+    margin-left: 10px;
+    width: 30px; /* Adjusted width */
+    height: 30px; /* Adjusted height */
+}
+.close-button {
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 15px; /* Adjusted position */
+}
+.under-construction {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.under-construction:hover {
+    background-color: #c0c0c0;
+}
+
+/* Rounded Button Styling */
+.rounded-button {
+    display: inline-block;
+    padding: 50px; /* Adjusted padding */
+    border-radius: 20px;
+    background-color:#1F75FE; 
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px; /* Adjusted width */
+    max-width: 300px; /* Added max-width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added box shadow */
+    border: none; /* Removed border */
+}
+.rounded-button:hover {
+    background-color: #545AA7;
+}
+.button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button-image {
+    width: 200px; /* Adjust image width */
+    height: 200px; /* Adjust image height */
+    margin-bottom: 10px;
+    border-radius: 50%; /* Make image circular */
+}
+
+/*Basic Folds Webpage*/
+.tutorial-text {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center the content */
+}
+.tutorial-text p {
+    font-size: 18px; /* Increase font size */
+    line-height: 1.6; /* Increase line height for better readability */
+    margin-bottom: 20px; /* Add space between paragraphs */
+}
+.tutorial-box {
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f9f7f7;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text */
+}
+.tutorial-box h3 {
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+.step {
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.step h4 {
+    color: #000;
+    font-size: 18px;
+}
+.step p {
+    color: #555555;
+    margin-bottom: 10px;
+}
+.step img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.step .step6b-img {
+    width: 80%; /* Adjust the width as needed */
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.step:last-child {
+    margin-bottom: 0;
+}
